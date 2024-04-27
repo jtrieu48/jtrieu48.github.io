@@ -30,6 +30,13 @@ h2{
     margin-bottom: 10px;
 }
 
+h4{
+    font-size: 25px;
+    font-weight: 300;
+    color: var(--light-text);
+    margin-bottom: 10px;
+}
+
 a{
     color: #7A7C80;
     text-decoration: none;
@@ -44,18 +51,60 @@ a{
 /*Section 1*/
 .introduction{
     padding: 0;
-    padding-top: 5rem;
+    padding-top: 10vh;
     text-align: center;
 }
 
+.introduction p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin: 0;
+}
 
-.projects{
-    padding: 0;
-    padding-left: 1.5rem;
-    padding-top: 2rem;
+.introduction h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.introduction a{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+/*Section 2*/
+.main-content{
+    padding-top: 5vh;
     text-align: center;
 }
 
-#Linkedin{
-    background-image: url(assets/linkedin.jpg)
+.main-content h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.main-content p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.main-content a{
+    display: inline-block;
+    padding: 5px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 100px;
+}
+
+/* Animations */
+.introduction a:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-content a:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
 }
